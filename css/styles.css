@@ -111,6 +111,15 @@ body {
     cursor: pointer;
 }
 
+.hero-salad {
+    display: flex;
+    align-items:center;
+    width: 580px;
+    height: 580px;
+    border: 26px solid #ffe550;
+    border-radius: 100%;
+}
+
 /*---------ABOUT------*/
 
 .about {
@@ -171,10 +180,40 @@ body {
     cursor: pointer;
 }
 
-.about-icon {
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     fill: #7eb101;
+    width: 48px;
+    height: 48px;
+    background-color: #fefefe;
+    border-radius: 100%;
+    margin-bottom: 8px;
 
 }
+
+.cover-apple-wrap {
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    width: 550px;
+    height: 550px;
+
+}
+
+.cover-apple {
+    border-radius: 100%;
+    background-color: #fefefe;
+    width: 502px;
+    height: 502px;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /*---------FAVORITE---------*/
 
@@ -238,6 +277,9 @@ body {
     gap: 139px;
 }
 .customers-item {
+    border-radius: 0 30px 30px 30px;
+    width: 501px;
+    height: 231px;
     background: #fff;
     padding: 14px;
 }
@@ -266,3 +308,172 @@ body {
     line-height: 1.5;
 }
 
+/*---------CONTACTS---------*/
+
+.contact {
+    padding-top: 176px;
+    padding-bottom: 201px;
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-wrapper-container {
+    max-width: 656px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.contact-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    max-width: 532px;
+}
+
+
+.contact-form {
+    display: flex;
+    gap: 32px;
+}
+
+.contact-input {
+    border: 0.85px solid #ffe550;
+    border-radius: 30px;
+    padding-left: 11px;
+    width: 395px;
+    height: 42px;
+    background: #fefefe;
+}
+
+.contact-btn {
+    border-radius: 30px;
+    background: #bbf330;
+    border: none;
+    min-width: 103px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+.contact-input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #505050;
+}
+
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("../images/fruit-futer.png");
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    background-position: bottom;
+    
+}
+
+.footer-wrapper {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.footer-logo {
+    margin-right: 143px;
+    align-items: center;
+    display: flex;
+}
+
+.footer-nav-list {
+    display: flex;
+  align-items: center;
+  margin-right: auto;
+  gap: 28px;
+}
+
+.footer-item {
+    font-weight: 400;
+    font-size: 14px
+}
+
+.footer-form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.footer-input {
+    border: 0.85px solid #ffe550;
+    border-radius: 30px;
+    padding: 10px;
+    width: 279px;
+    height: 42px;
+    margin-bottom: 12px;
+    margin-right: 13px;
+}
+
+.footer-btn {
+    border: 0.85px solid #7eb101;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 103px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    background: #fff;
+    cursor: pointer;
+    
+}
+
+.footer-policy {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer-policy-link {
+    color: #7eb101;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.footer-bottom-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info-list {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-info-item {
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #7eb101;
+    text-decoration-skip-ink: none;
+}
+
+.footer-data {
+    font-weight: 400;
+    font-size: 12px;
+}
