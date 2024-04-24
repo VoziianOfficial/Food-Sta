@@ -235,4 +235,36 @@
         </div>
     </footer>
 </body>
+
+<div class="backdrop is-open">
+    <div class="modal">
+        <button class="modal-close-btn" type="button">
+            <svg class="modal-close-icon" width="11" height="11">
+                <use href="./images/icons.svg#icon-close-btn"></use>
+            </svg>
+        </button>
+        <p class="modal-title">Order Form</p>
+
+        <form>
+            <div class="modal-field">
+                <label for="user-name" class="modal-label">Name</label>
+                <input class="modal-input" type="text" placeholder="Your name" name="user-name" id="user-name">
+            </div>
+
+            <div class="modal-field">
+                <label for="user-tel" class="modal-label">Phone number</label>
+                <input class="modal-input" name="user-tel" id="user-tel" type="tel" placeholder="+38(0_ _) _ _ _   _ _   _ _">
+            </div>
+
+            <div class="modal-field">
+                <label for="user-email" class="modal-label">E-mail</label>
+                <input class="modal-input" id="user-email" name="user-email" type="email" placeholder="example@gmail.com">
+            </div>
+
+            <button class="modal-send-btn" type="submit">Send</button>
+        </form>
+
+        
+    </div>
+</div>
 </html>
